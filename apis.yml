@@ -1,8 +1,24 @@
 aid: one-raven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-raven.png
 name: One Raven
-description: 'One Raven is a company surfaced as a portfolio company of fifth-wall and added to the API
-  Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'One Raven is a Phoenix, Arizona smart-home technology company building a local-first home
+  automation platform designed for homeowners who want simplicity, privacy, and control. Its core product
+  is the One Raven Home Server, which processes and stores home data locally rather than in the cloud, and
+  ships pre-paired with a curated set of devices such as thermostats, smart locks, leak-detection and
+  security sensors. The platform emphasizes local data storage, encrypted remote access, and a
+  subscription-free model. Backed by a $5M seed round led by proptech investor Fifth Wall. One Raven does
+  not currently publish a public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/one-raven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +28,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Proptech
+- Smart Home
+- Home Automation
+- IoT
+- Privacy
+- Local-First
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: One Raven
+  email: info@oneraven.com
 common:
+- type: DomainSecurity
+  url: security/one-raven-domain-security.yml
 - type: Website
   url: https://oneraven.com/
+- type: X
+  url: https://x.com/OneRavenInc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/oneraven-inc
+- type: Instagram
+  url: https://www.instagram.com/oneraven.inc/
+- type: Contact
+  url: mailto:info@oneraven.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
