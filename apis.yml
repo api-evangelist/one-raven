@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - PropTech
@@ -65,6 +65,8 @@ maintainers:
 - FN: One Raven
   email: info@oneraven.com
 common:
+- url: https://oneraven.com/press/
+  type: Blog
 - type: DomainSecurity
   url: security/one-raven-domain-security.yml
 - type: Website
